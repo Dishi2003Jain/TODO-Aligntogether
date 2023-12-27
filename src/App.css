@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* TodoForm.css */
+.container{
+  height: 100vh;
+}
+.todo-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.todo-form h1 {
+  text-align: center;
+}
+
+.todo-form input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.todo-form button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* TodoList.css */
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+}
+
+.todo-item:hover {
+  background-color: #f0f0f0;
+}
+.buttons{
+  display: flex;
+}
+.buttons button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #130202;
+}
